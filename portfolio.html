@@ -4,105 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.css" />
 <body>
     <!-- Шапка сайта -->   
     <header>
         <nav>
-            <a href="./index.html">Web studio</a>   
+            <a href="./index.html" class="logo">
+                <span>Web</span> Studio</a>   
 
-            <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="list">
+                <li><a href="./index.html" class="link-nav">Студия</a></li>
+                <li><a href="./portfolio.html"class="link-nav current">Портфолио</a></li>
+                <li><a href="" class="link-nav">Контакты</a></li>
             </ul>
         </nav>
-            <ul>
+            <ul class="list">
                 <li>
-                    <a href="mailto:info@devstudio.com">
-                    <img src="./images/mail.svg" alt="Почта компании" /></a>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a href="mailto:info@devstudio.com" >
+                    <img src="./images/mail.svg" alt="Почта компании" class="cont-logo" /></a>
+                    <a href="mailto:info@devstudio.com" class="link-cont">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a href="tel:+380961111111">
-                    <img src="./images/tel.svg" alt="Моб номер компании" /></a>
-                    <a href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a href="tel:+380961111111" >
+                    <img src="./images/tel.svg" alt="Моб номер компании" class="cont-logo" /></a>
+                    <a href="tel:+380961111111" class="link-cont">+38 096 111 11 11</a>
                 </li>
             </ul>
     </header> 
 
     <main>
         <!-- Герой -->
-        <h1>Содержимое страницы</h1>
-        <ul>
-            <li><button type="button">Все</button></li>
-            <li><button type="button">Веб-сайты</button></li>
-            <li><button type="button">Приложения</button></li>
-            <li><button type="button">Дизайн</button></li>
-            <li><button type="button">Маркетинг</button></li>
-        </ul>
-        <uL>
-            <li>
-                <a href=""><img src="./images/pc-main.jpg" alt="Экран ноутбука" /></a>
-                <h2>Технокряк</h2>
-                <p>Веб-сайт</p>
-            </li>
+        <section class="section">
+            <h1>Содержимое страницы</h1>
+            <ul class="list">
+                <li><button type="button" class="button">Все</button></li>
+                <li><button type="button" class="button">Веб-сайты</button></li>
+                <li><button type="button" class="button">Приложения</button></li>
+                <li><button type="button" class="button">Дизайн</button></li>
+                <li><button type="button" class="button">Маркетинг</button></li>
+            </ul>
+            <uL class="list">
+                <li>
+                    <a href=""><img src="./images/pc-main.jpg" alt="Экран ноутбука" /></a>
+                    <a href="" class="link-dec"><h2 class="img-capt">Технокряк</h2></a>
+                    <a href="" class="link-dec"><p class="img-desc">Веб-сайт</p></a>
+                </li>
 
-            <li>
-                <a href=""><img src="./images/basketball.jpg" alt="Постер" /></a>
-                <h2>Постер New Orlean vs Golden Stars</h2>
-                <p>Дизайн</p>
-            </li> 
+                <li>
+                    <a href=""><img src="./images/basketball.jpg" alt="Постер" /></a>
+                    <a href="" class="link-dec"><h2 class="img-capt">Постер New Orlean vs Golden Stars</h2></a>
+                    <a href="" class="link-dec"><p class="img-desc">Дизайн</p></a>
+                </li> 
 
-            <li>
-                <a href=""><img src="./images/restaurant.jpg" alt="Лого ресторана" /></a>
-                <h2>Ресторан Seafood</h2>
-                <p>Приложение</p>
-            </li> 
-            <li>
-                <a href=""><img src="./images/headphones.jpg" alt="Наушники" /></a>
-                <h2>Проект Prime</h2>
-                <p>Маркетинг</p>
-            </li> 
-            <li>
-                <a href=""><img src="./images/boxes.jpg" alt="Две коробки" /></a>
-                <h2>Проект Boxes</h2>
-                <p>Приложение</p>
-            </li>
-            <li>
-                <a href=""><img src="./images/pc-monitor.jpg" alt="Монитор" /></a>
-                <h2>Inspiration has no Borders</h2>
-                <p>Веб-сайт</p>
-            </li> 
-            <li>
-                <a href=""><img src="./images/magazine.jpg" alt="Журнал" /></a>
-                <h2>Издание Limited Edition</h2>
-                <p>Дизайн</p>
-            </li> 
-            <li>
-                <a href=""><img src="./images/label.jpg" alt="Лейбл" /></a>
-                <h2>Проект LAB</h2>
-                <p>Маркетинг</p>
-            </li>
-            <li>
-                <a href=""><img src="./images/notebook-main.jpg" alt="Экран ноутбука" /></a>
-                <h2>Growing Business</h2>
-                <p>Приложение
-            </li>        
-        </uL>
+                <li>
+                    <a href=""><img src="./images/restaurant.jpg" alt="Лого ресторана" /></a>
+                    <a href="" class="link-dec"><h2 class="img-capt">Ресторан Seafood</h2></a>
+                    <a href="" class="link-dec"><p class="img-desc">Приложение</p></a>
+                </li> 
+                <li>
+                    <a href=""><img src="./images/headphones.jpg" alt="Наушники" /></a>
+                    <a href="" class="link-dec"><h2 class="img-capt">Проект Prime</h2></a>
+                    <a href="" class="link-dec"><p class="img-desc">Маркетинг</p></a>
+                </li> 
+                <li>
+                    <a href=""><img src="./images/boxes.jpg" alt="Две коробки" /></a>
+                    <a href="" class="link-dec"><h2 class="img-capt">Проект Boxes</h2></a>
+                    <a href="" class="link-dec"><p class="img-desc">Приложение</p></a>
+                </li>
+                <li>
+                    <a href=""><img src="./images/pc-monitor.jpg" alt="Монитор" /></a>
+                    <a href="" class="link-dec"><h2 class="img-capt">Inspiration has no Borders</h2></a>
+                    <a href="" class="link-dec"><p class="img-desc">Веб-сайт</p></a>
+                </li> 
+                <li>
+                    <a href=""><img src="./images/magazine.jpg" alt="Журнал" /></a>
+                    <a href="" class="link-dec"><h2 class="img-capt">Издание Limited Edition</h2></a>
+                    <a href="" class="link-dec"><p class="img-desc">Дизайн</p></a>
+                </li> 
+                <li>
+                    <a href=""><img src="./images/label.jpg" alt="Лейбл" /></a>
+                    <a href="" class="link-dec"><h2 class="img-capt">Проект LAB</h2></a>
+                    <a href="" class="link-dec"><p class="img-desc">Маркетинг</p></a>
+                </li>
+                <li>
+                    <a href=""><img src="./images/notebook-main.jpg" alt="Лейбл" /></a>
+                    <a href="" class="link-dec"><h2 class="img-capt">Growing Business</h2></a>
+                    <a href="" class="link-dec"><p class="img-desc">Приложение</p></a>
+                </li>     
+            </uL>
+        </section>
     </main>
 
+    <!-- Футер -->
     <footer>
-        <div><a href="./index.html">Web studio</a></div>
-        <address>
+        <div><a href="./index.html" class="logo-footer"><span>Web</span> Studio</a></div>
+        <address class="address">
             <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <p><a href="mailto:info@example.com">info@example.com</a></p>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <p><a href="mailto:info@example.com" class="footer-link">info@example.com</a></p>
+            <a href="tel:+380991111111" class="footer-link">+38 099 111 11 11</a>
         </address>
 
             <p><b>присоединяйтесь</b></p>
 
-            <ul>
+            <ul class="list">
                 <li>
                     <a href=""><img src="./images/instagram.svg" alt="Логотип Инстаграм" /></a>
                 </li>
@@ -116,6 +121,8 @@
                     <a href=""><img src="./images/linkedin.svg" alt="Логотип Линкедин" /></a>
                 </li>
             </ul>
+
+            <p><b>Подпишитесь на рассылку</b></p>
 
             <p>2020 | Developed by GoIT Students</p>
 
