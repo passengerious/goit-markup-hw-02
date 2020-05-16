@@ -1,0 +1,227 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 36px;  
+    line-height: 42px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.list {
+    list-style: none;
+}   
+
+.logo{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.logo > span{
+    color: var(--accent-color);
+}
+
+.link-nav:hover,
+.link-nav:focus,
+.link-nav:active {
+    color: var(--accent-color);
+}
+
+.link-nav.current {
+    color: var(--accent-color);
+}
+
+  
+.link-nav {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.link-cont {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.link-cont:hover,
+.link-cont:focus {
+    color: var(--accent-color);
+}
+
+.cont-logo:hover {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.hero-title {
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+  
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+  
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+
+.section {
+    background-color: #e5e5e5;
+}
+  .section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section-text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+  .section-titles {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.img-titles {
+    color: var(--primary-white-color);
+    background-color: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}    
+
+.team-titles{
+    color: var(--title-text-color);    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-text{
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}  
+
+.section-team{
+    background-color: #F5F4FA;
+}
+
+footer {
+    color: var(--primary-white-color);
+    background-color: #2f303a;
+}
+
+.logo-footer{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.18;
+    color: var(--primary-white-color);
+    text-decoration: none;
+}
+
+.logo-footer > span{
+    color: var(--accent-color);
+}
+
+.address {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+
+.button {
+    color: var(--title-text-color);
+    background-color: #f5f4fa;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.button:hover,
+.button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.img-capt {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+.img-desc {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+
+.link-dec{
+    text-decoration: none;
+}
