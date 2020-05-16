@@ -1,2 +1,2 @@
 # maket-dz
-https://passengerious.github.io/goit-markup-hw-01/
+https://passengerious.github.io/goit-markup-hw-02/index.html
